@@ -1,0 +1,5 @@
+listener_demo_dcomp: # Name of the node
+  ros__parameters:
+    aruco_marker_0: "left_90"
+    aruco_marker_1: "right_90"
+    aruco_marker_2: "end"

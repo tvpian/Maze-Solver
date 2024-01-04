@@ -1,0 +1,105 @@
+[0.610s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.610s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f320e2ccaf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f320e2ccaf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f320e2afe50>)[0m
+[0.701s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.701s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.701s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.702s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.702s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.702s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.702s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.721s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_cmake' and name 'group6'[0m
+[0.722s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.722s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.722s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.722s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.722s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.756s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.757s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.762s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 10 installed packages in /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install[0m
+[0.764s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/tvp/ros809_ws/install[0m
+[0.768s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 333 installed packages in /opt/ros/galactic[0m
+[0.770s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_args' from command line to 'None'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_target' from command line to 'None'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_clean_first' from command line to 'False'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'cmake_force_configure' from command line to 'False'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'ament_cmake_args' from command line to 'None'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'group6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.890s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'group6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6', 'merge_install': False, 'path': '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6', 'symlink_install': False, 'test_result_base': None}[0m
+[0.892s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.901s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.901s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6' with build type 'ament_cmake'
+[0.901s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6'
+[0.910s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.931s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6 -DCMAKE_INSTALL_PREFIX=/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6[0m
+[3.457s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6 -DCMAKE_INSTALL_PREFIX=/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6[0m
+[3.461s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6 -- -j4 -l4[0m
+[3.509s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6 -- -j4 -l4[0m
+[3.551s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6[0m
+[3.567s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(group6)
+[3.569s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6[0m
+[3.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6' for CMake module files
+[3.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6' for CMake config files
+[3.580s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('group6', 'cmake_prefix_path')
+[3.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.ps1'
+[3.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.dsv'
+[3.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.sh'
+[3.586s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/bin'
+[3.587s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/lib/pkgconfig/group6.pc'
+[3.587s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/lib/python3.8/site-packages'
+[3.587s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/bin'
+[3.591s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.ps1'
+[3.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.dsv'
+[3.592s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.sh'
+[3.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.bash'
+[3.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.zsh'
+[3.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/colcon-core/packages/group6)
+[3.625s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(group6)
+[3.631s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6' for CMake module files
+[3.632s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6' for CMake config files
+[3.632s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('group6', 'cmake_prefix_path')
+[3.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.ps1'
+[3.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.dsv'
+[3.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/hook/cmake_prefix_path.sh'
+[3.638s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/bin'
+[3.638s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/lib/pkgconfig/group6.pc'
+[3.638s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/lib/python3.8/site-packages'
+[3.638s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/bin'
+[3.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.ps1'
+[3.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.dsv'
+[3.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.sh'
+[3.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.bash'
+[3.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.zsh'
+[3.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/colcon-core/packages/group6)
+[3.645s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.646s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.646s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.646s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.652s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.652s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.652s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.667s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/local_setup.ps1'
+[3.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/_local_setup_util_ps1.py'
+[3.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/setup.ps1'
+[3.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/local_setup.sh'
+[3.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/_local_setup_util_sh.py'
+[3.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/setup.sh'
+[3.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/local_setup.bash'
+[3.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/setup.bash'
+[3.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/local_setup.zsh'
+[3.684s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/setup.zsh'

@@ -1,0 +1,63 @@
+\hypertarget{class_utils}{}\doxysection{Utils Class Reference}
+\label{class_utils}\index{Utils@{Utils}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+geometry\+\_\+msgs\+::msg\+::\+Quaternion \mbox{\hyperlink{class_utils_ab0926ab8fcd6b3f96e9b4ec7ba907489}{set\+\_\+quaternion\+\_\+from\+\_\+euler}} (double roll, double pitch, double yaw)
+\begin{DoxyCompactList}\small\item\em Get the quaternion from euler object. \end{DoxyCompactList}\item 
+std\+::array$<$ double, 3 $>$ \mbox{\hyperlink{class_utils_ab41d9930be1d94b7fe72fbbea2f8b3ad}{set\+\_\+euler\+\_\+from\+\_\+quaternion}} (tf2\+::\+Quaternion quaternion)
+\begin{DoxyCompactList}\small\item\em Get the euler from quaternion object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_utils_ab41d9930be1d94b7fe72fbbea2f8b3ad}\label{class_utils_ab41d9930be1d94b7fe72fbbea2f8b3ad}} 
+\index{Utils@{Utils}!set\_euler\_from\_quaternion@{set\_euler\_from\_quaternion}}
+\index{set\_euler\_from\_quaternion@{set\_euler\_from\_quaternion}!Utils@{Utils}}
+\doxysubsubsection{\texorpdfstring{set\_euler\_from\_quaternion()}{set\_euler\_from\_quaternion()}}
+{\footnotesize\ttfamily std\+::array$<$double, 3$>$ Utils\+::set\+\_\+euler\+\_\+from\+\_\+quaternion (\begin{DoxyParamCaption}\item[{tf2\+::\+Quaternion}]{quaternion }\end{DoxyParamCaption})}
+
+
+
+Get the euler from quaternion object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quaternion} & \\
+\hline
+{\em roll} & \\
+\hline
+{\em pitch} & \\
+\hline
+{\em yaw} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array\mbox{[}roll, pitch, yaw\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_utils_ab0926ab8fcd6b3f96e9b4ec7ba907489}\label{class_utils_ab0926ab8fcd6b3f96e9b4ec7ba907489}} 
+\index{Utils@{Utils}!set\_quaternion\_from\_euler@{set\_quaternion\_from\_euler}}
+\index{set\_quaternion\_from\_euler@{set\_quaternion\_from\_euler}!Utils@{Utils}}
+\doxysubsubsection{\texorpdfstring{set\_quaternion\_from\_euler()}{set\_quaternion\_from\_euler()}}
+{\footnotesize\ttfamily geometry\+\_\+msgs\+::msg\+::\+Quaternion Utils\+::set\+\_\+quaternion\+\_\+from\+\_\+euler (\begin{DoxyParamCaption}\item[{double}]{roll,  }\item[{double}]{pitch,  }\item[{double}]{yaw }\end{DoxyParamCaption})}
+
+
+
+Get the quaternion from euler object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em roll} & roll angle in radians \\
+\hline
+{\em pitch} & pitch angle in radians \\
+\hline
+{\em yaw} & yaw angle in radians \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+geometry\+\_\+msgs\+::msg\+::\+Quaternion Quaternion from rpy 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+utils.\+h\end{DoxyCompactItemize}

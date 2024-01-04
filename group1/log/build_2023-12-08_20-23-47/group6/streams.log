@@ -1,0 +1,76 @@
+[0.028s] Invoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6 -DCMAKE_INSTALL_PREFIX=/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6
+[0.232s] -- The C compiler identification is GNU 9.4.0
+[0.297s] -- The CXX compiler identification is GNU 9.4.0
+[0.303s] -- Check for working C compiler: /usr/bin/cc
+[0.383s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.384s] -- Detecting C compiler ABI info
+[0.466s] -- Detecting C compiler ABI info - done
+[0.479s] -- Detecting C compile features
+[0.480s] -- Detecting C compile features - done
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.575s] -- Detecting CXX compiler ABI info
+[0.668s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.686s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.827s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.908s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.040s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.079s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.260s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.264s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.288s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.289s] -- Looking for pthread.h
+[1.372s] -- Looking for pthread.h - found
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.458s] -- Looking for pthread_create in pthreads
+[1.527s] -- Looking for pthread_create in pthreads - not found
+[1.527s] -- Looking for pthread_create in pthread
+[1.608s] -- Looking for pthread_create in pthread - found
+[1.609s] -- Found Threads: TRUE  
+[1.791s] -- Found mage_msgs: 0.0.0 (/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/mage_msgs/share/mage_msgs/cmake)
+[1.925s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[2.358s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[2.371s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.376s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.408s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.511s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.517s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.517s] -- Configured cppcheck include dirs: 
+[2.517s] -- Configured cppcheck exclude dirs and/or files: 
+[2.523s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.523s] -- Configured cpplint exclude dirs and/or files: 
+[2.526s] -- Added test 'lint_cmake' to check CMake code style
+[2.532s] -- Added test 'uncrustify' to check C / C++ code style
+[2.532s] -- Configured uncrustify additional arguments: 
+[2.534s] -- Added test 'xmllint' to check XML markup files
+[2.539s] -- Configuring done
+[2.542s] -- Generating done
+[2.545s] -- Build files have been written to: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6
+[2.554s] Invoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6 -DCMAKE_INSTALL_PREFIX=/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6
+[2.558s] Invoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6 -- -j4 -l4
+[2.606s] Invoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6 -- -j4 -l4
+[2.648s] Invoking command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6
+[2.658s] -- Install configuration: ""
+[2.660s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/ament_index/resource_index/package_run_dependencies/group6
+[2.660s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/ament_index/resource_index/parent_prefix_path/group6
+[2.660s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/environment/ament_prefix_path.sh
+[2.660s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/environment/ament_prefix_path.dsv
+[2.660s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/environment/path.sh
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/environment/path.dsv
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/local_setup.bash
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/local_setup.sh
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/local_setup.zsh
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/local_setup.dsv
+[2.661s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.dsv
+[2.662s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/ament_index/resource_index/packages/group6
+[2.662s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/cmake/group6Config.cmake
+[2.662s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/cmake/group6Config-version.cmake
+[2.662s] -- Installing: /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/install/group6/share/group6/package.xml
+[2.667s] Invoked command in '/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/rwa3_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/tvp/TVP/Coursework/Fall2023/ENPM809Y/RWA3-Group6/group6/build/group6

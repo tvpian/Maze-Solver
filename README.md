@@ -28,4 +28,5 @@ workspace.
 
 ## Demo
 [Maze Solver demo](https://github.com/tvpian/Maze_Solver/assets/41953267/1bcfc9d1-672c-44e0-98a8-99463541b1b6)
+
 [Using cmd paramters](https://github.com/tvpian/Maze_Solver/assets/41953267/198bdd95-3db6-4c86-b8fc-7f473c6ddbed)

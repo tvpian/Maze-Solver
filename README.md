@@ -26,4 +26,6 @@ workspace.
 - Note: Considering all the packages including the group1_final cloned in the same workspace, Please follow only the instructions under the "Instructions to run the code" section in the link above.
 
 ## Demo
-[demo.webm](https://github.com/tvpian/Maze_Runner/assets/41953267/9c2e4b79-4b36-48e2-995b-bce9027824f6)
+[Maze Solver demo](https://github.com/tvpian/Maze_Solver/assets/41953267/1bcfc9d1-672c-44e0-98a8-99463541b1b6)
+
+[Using cmd paramters](https://github.com/tvpian/Maze_Solver/assets/41953267/198bdd95-3db6-4c86-b8fc-7f473c6ddbed)

@@ -4,7 +4,7 @@ In this ROS2-based implementation, a turtlebot3 performs autonomous navigation i
 
 ## Dependencies
 - ROS2 Galactic
-• ArUco marker detection requires the latest version of OpenCV.
+- ArUco marker detection requires the latest version of OpenCV.
 ```bash
   - pip3 uninstall opencv-python
   - pip3 uninstall opencv-contrib-python
@@ -23,8 +23,7 @@ workspace.
 
 ## Usage
 - [Link to usage](./group1/README.md)
-- Note: Considering all the packages including the group1_final cloned in the same workspace, Please follow only the instructions under the "Running the Project
-" section in the link above.
+- Note: Considering all the packages including the group1_final cloned in the same workspace, Please follow only the instructions under the "Instructions to run the code" section in the link above.
 
 ## Demo
 [demo.webm](https://github.com/tvpian/Maze_Runner/assets/41953267/9c2e4b79-4b36-48e2-995b-bce9027824f6)

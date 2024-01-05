@@ -23,8 +23,7 @@ workspace.
 
 ## Usage
 - [Link to usage](./group1/README.md)
-- Note: Considering all the packages including the group1_final cloned in the same workspace, Please follow only the instructions under the "Running the Project
-" section in the link above.
+- Note: Considering all the packages including the group1_final cloned in the same workspace, Please follow only the instructions under the "Instructions to run the code" section in the link above.
 
 ## Demo
 [Maze Solver demo](https://github.com/tvpian/Maze_Solver/assets/41953267/1bcfc9d1-672c-44e0-98a8-99463541b1b6)
